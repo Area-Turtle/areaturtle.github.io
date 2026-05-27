@@ -5,6 +5,15 @@ body {
   text-align: center;
   padding-top: 100px;
 }
+/* NEW: GRID WRAPPER */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  padding: 0 40px;
+  justify-items: center;
+}
+/* CARD */
 .project-card {
   width: 400px;
   margin: 40px auto;
