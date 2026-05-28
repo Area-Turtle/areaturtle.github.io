@@ -1,0 +1,33 @@
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 40px;
+
+  background: rgba(255,255,255,0.08);
+
+  backdrop-filter: blur(10px);
+
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+
+  position: sticky;
+  top: 0;
+
+  z-index: 1000;
+}
+.site-header nav a {
+  margin-left: 20px;
+
+  color: white;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+.site-header nav a:hover {
+  color: #60a5fa;
+}
