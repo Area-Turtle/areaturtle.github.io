@@ -1,0 +1,26 @@
+{
+  "name": "areaturtle.github.io",
+  "version": "1.0.0",
+  "description": "- Demo Project: https://github.com/Area-Turtle/cypress-automation-project   - requires OWASP Juice-Shop, Node.js, Cypress, and Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Area-Turtle/areaturtle.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Area-Turtle/areaturtle.github.io/issues"
+  },
+  "homepage": "https://github.com/Area-Turtle/areaturtle.github.io#readme",
+  "devDependencies": {
+    "htmlhint": "^1.9.2",
+    "stylelint": "^17.12.0",
+    "stylelint-config-standard": "^40.0.0"
+  }
+}

@@ -26,12 +26,22 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     needs: build
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Lint HTML/CSS
-        run: echo "Linting files..."
+      - name: Setup Node
+        uses: actions/setup-node@v4
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Lint HTML
+        run: npx htmlhint "**/*.html"
+
+      - name: Lint CSS
+        run: npx stylelint "**/*.css"
 
   # 3. PREPARE SITE
   prepare:
