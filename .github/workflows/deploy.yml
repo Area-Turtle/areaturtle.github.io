@@ -41,7 +41,7 @@ jobs:
   # 2. LINT
   lint:
     runs-on: ubuntu-latest
-    needs: [build,prepare]
+    needs: build
 
     steps:
       - name: Checkout repo
